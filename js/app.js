@@ -28,10 +28,13 @@ let CartItem = function(product, quantity) {
 };
 
 // Product contractor.
+let itemsName=[]
 let Product = function(filePath, name) {
     this.filePath = filePath;
     this.name = name;
+    itemsName.push(this.name);
     Product.allProducts.push(this);
+    this.name.push
 };
 Product.allProducts = [];
 
